@@ -6,6 +6,7 @@
   <title>Joakim Ottosson personal page</title>
   <meta name="description" content="My personal website with completed work"> <!-- Update this one with better text -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Author" content="Something?">
 
   <meta property="og:title" content=""> <!-- Create someo content for the OG-tags -->
   <meta property="og:type" content="">
@@ -18,6 +19,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style-min.css"> <!-- My stylesheet -->
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -30,6 +32,10 @@
     <h2>Logo</h2> <!-- Maybe make this hidden? For accessibility -->
     <nav aria-label="Primary">
       <h2>Primary navigation</h2> <!-- Maybe make this hidden? For accessibility -->
+      <abbr>TEST</abbr>
+      <ul>
+        <li>Länk A</li>
+      </ul>
     </nav>
   </header>
 
@@ -46,8 +52,8 @@
       <p>Some text content</p> <!-- Type of byline -->
     </section>
 
-    <section>
-      <h2>What I do</h2>
+    <section aria-label="What I do?">
+      <h2>What I do?</h2>
       <article>
         <h3>Code</h3>
         <p>Text</p>
@@ -91,7 +97,20 @@
 
     <section>
       <h2>Contact</h2>
-      Form
+      <form action="" method="post"> <!-- Two types of code -->
+        <label for="name">Your name</label>
+        <input type="text" name="name" id="name" />
+        <label>
+          <span>Email</span> <!-- If I want to style? -->
+          <input type="email" name="email" required /> <!-- Simple validation -->
+        </label>
+        <button type="submit">Send</button>
+        <button type="button">Does something</button>
+        <select name="options">
+          <option value="1">opt1</option>
+          <option value="2">opt2</option>
+        </select>
+      </form>
     </section>
 
     <footer>
