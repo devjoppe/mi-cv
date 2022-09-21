@@ -10,8 +10,8 @@ prepros.config
 .editorconfig
 .gitattributes
 .htaccess
-.browserconfig.xml
-.LICENSE.txt
+browserconfig.xml
+LICENSE.txt
 
 # Hide for right now but can be used in the future
 js/*
