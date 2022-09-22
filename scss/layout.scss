@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.layout {
+    width: 1440px;
+    display: flex;
+}
+
+.layout--main {
+    display: flex;
+    flex-direction: column;
+}

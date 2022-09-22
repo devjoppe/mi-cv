@@ -18,34 +18,32 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/style-min.css"> <!-- My stylesheet -->
 
-  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
+  <div class="container">
+    <div class="layout">
+
   <h1>Joakim Ottossons personal Website</h1> <!-- Maybe make this hidden? For accessibility -->
 
-  <header>
-    <h2>Logo</h2> <!-- Maybe make this hidden? For accessibility -->
-    <nav aria-label="Primary">
-      <h2>Primary navigation</h2> <!-- Maybe make this hidden? For accessibility -->
-      <abbr>TEST</abbr>
-      <ul>
-        <li>Länk A</li>
-      </ul>
-    </nav>
-  </header>
-
   <aside>
-    <h2>Personal facts</h2> <!-- Maybe make this hidden? For accessibility -->
+    <h2>Personal facts</h2> <!-- Maysbe make this hidden? For accessibility -->
     ASIDE
   </aside>
 
-  <main>
+  <div class="layout--main">
+  <header>
+    <span class="header--text">
+      run<br />
+      frontend<br />
+      ready.
+    </span> <!-- Maybe make this hidden? For accessibility -->
+  </header>
 
+  <main>
     <section>
       <h2>About</h2> <!-- Maybe make this hidden? For accessibility -->
       Main image
@@ -113,22 +111,34 @@
       </form>
     </section>
 
-    <footer>
-      Copyright and email
-    </footer>
-  
   </main>
+
+  <footer>
+    <div class="footer-content">
+      Copyright and email
+    </div>
+  </footer>
+
+</div>
+
+  <aside>
+    <nav aria-label="Primary">
+      <h2>Primary navigation</h2> <!-- Maybe make this hidden? For accessibility -->
+      <abbr>TEST</abbr>
+      <ul>
+        <li>Länk A</li>
+      </ul>
+    </nav>
+  </aside>
+
+  </div>
+
+  </div>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>

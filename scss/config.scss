@@ -1,5 +1,56 @@
-//Colors
-$main-color: #FFFFFF;
-$secondary-color: #45d;
+// Local Heading font import
+@font-face {
+    font-family: 'commodore_64_roundedregular';
+    src: url('../fonts/commodore_rounded-webfont.woff2') format('woff2'),
+         url('../fonts/commodore_rounded-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
-//Spacing
+// Google font import
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap');
+
+// Colors
+$main-color: #F5EFD3;
+$main-color-20: #EEE8CF;
+$main-color-50: #CBC5AE;
+$secondary-color: #EC8133;
+$orange-color: #D74E24;
+$link-color: #D74E24;
+$brown-color: #4C0821;
+$gray-color: #545145;
+
+// Fonts
+$text-font: 'Cabin', sans-serif;
+$heading-font: commodore_64_roundedregular;
+
+// Global
+body {
+    background: $main-color;
+    font-family: $text-font;
+}
+
+// Text
+h1, h2, h3, h4 {
+    font-family: $heading-font;
+    font-size: 59px;
+    color: $brown-color;
+    padding: 0;
+    margin: 0;
+}
+
+h1 { display: none; }
+h2 { font-size: 32px; }
+h3 { font-size: 24px; font-family: $text-font; color: $secondary-color; font-weight: 700; }
+
+p {
+    color: $gray-color;
+    font-size: 1rem;
+}
+
+// Spacing
+$size-mini: 8px;
+$size-small: 16px;
+$size-medium: 32px;
+$size-large: 56px;
+$size-x-large: 128px;
