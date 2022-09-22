@@ -24,7 +24,14 @@ $gray-color: #545145;
 $text-font: 'Cabin', sans-serif;
 $heading-font: commodore_64_roundedregular;
 
-// Global
+// Spacing
+$size-mini: 8px;
+$size-small: 16px;
+$size-medium: 32px;
+$size-large: 56px;
+$size-x-large: 128px;
+
+// Body
 body {
     background: $main-color;
     font-family: $text-font;
@@ -39,18 +46,14 @@ h1, h2, h3, h4 {
     margin: 0;
 }
 
-h1 { display: none; }
-h2 { font-size: 32px; }
-h3 { font-size: 24px; font-family: $text-font; color: $secondary-color; font-weight: 700; }
+h2 { font-size: 32px; margin-bottom: $size-large; }
+h3 { font-size: 24px; font-family: $text-font; color: $secondary-color; font-weight: 700; margin-bottom: $size-small; }
 
 p {
     color: $gray-color;
     font-size: 1rem;
+    margin: 0;
+    line-height: 28px;;
 }
 
-// Spacing
-$size-mini: 8px;
-$size-small: 16px;
-$size-medium: 32px;
-$size-large: 56px;
-$size-x-large: 128px;
+.d-none { display: none; }

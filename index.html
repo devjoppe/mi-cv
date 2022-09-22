@@ -27,111 +27,103 @@
   <div class="container">
     <div class="layout">
 
-  <h1>Joakim Ottossons personal Website</h1> <!-- Maybe make this hidden? For accessibility -->
+      <h1 class="d-none">Joakim Ottossons personal Website</h1>
 
-  <aside>
-    <h2>Personal facts</h2> <!-- Maysbe make this hidden? For accessibility -->
-    ASIDE
-  </aside>
+      <aside>
+        <div class="aside-left">
+          <h2 class="d-none">Personal facts</h2>
+          <div class="aside-content">
+            ASIDE ASIDE ASIDE ASIDE ASIDE ASIDE ASIDE ASIDE ASIDE ASIDEASIDEASIDE ASIDEASIDE ASIDE ASIDE
+          </div>
+        </div>
+      </aside>
 
-  <div class="layout--main">
-  <header>
-    <span class="header--text">
-      run<br />
-      frontend<br />
-      ready.
-    </span> <!-- Maybe make this hidden? For accessibility -->
-  </header>
+      <div class="layout--main">
 
-  <main>
-    <section>
-      <h2>About</h2> <!-- Maybe make this hidden? For accessibility -->
-      Main image
-      <p>Some text content</p> <!-- Type of byline -->
-    </section>
+        <header>
+          <span class="header--text">
+            run<br />
+            frontend<br />
+            ready.
+            <!-- <span class="header--dot">&#9609</span> -->
+          </span>
+        </header>
 
-    <section aria-label="What I do?">
-      <h2>What I do?</h2>
-      <article>
-        <h3>Code</h3>
-        <p>Text</p>
-      </article>
-      <article>
-        <h3>Design/UX</h3>
-        <p>Text</p>
-      </article>
-    </section>
+        <main>
 
-    <section>
-      <h2>My work</h2>
-      <article>
-        <h3>Work A</h3>
-        <img alt="This is an image" src="https://www.fillmurray.com/200/200">
-        <p>Description</p>
-      </article>
-      <article>
-        <h3>Work B</h3>
-        <img alt="This is an image" src="https://www.fillmurray.com/200/200">
-        <p>Description</p>
-      </article>
-      <article>
-        <h3>Work C</h3>
-        <img alt="This is an image" src="https://www.fillmurray.com/200/200">
-        <p>Description</p>
-      </article>
-    </section>
+          <section aria-label="What I do?">
+            <h2>What I do?</h2>
+            <article>
+              <h3>Code</h3>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
+            </article>
+            <article>
+              <h3>UI/UX Design</h3>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam.</p>
+            </article>
+          </section>
 
-    <section>
-      <h2>Resumé</h2>
-      <article>
-        <h3>Exp</h3>
-        <p>Work titles and dates</p>
-      </article>
-      <article>
-        <h3>Edu</h3>
-        <p>School and dates</p>
-      </article>
-    </section>
+          <section>
+            <h2>My work</h2>
+            <article>
+              <h3>Work A</h3>
+              <img alt="This is an image" src="https://www.fillmurray.com/200/200">
+              <p>Description</p>
+            </article>
+            <article>
+              <h3>Work B</h3>
+              <img alt="This is an image" src="https://www.fillmurray.com/200/200">
+              <p>Description</p>
+            </article>
+            <article>
+              <h3>Work C</h3>
+              <img alt="This is an image" src="https://www.fillmurray.com/200/200">
+              <p>Description</p>
+            </article>
+          </section>
 
-    <section>
-      <h2>Contact</h2>
-      <form action="" method="post"> <!-- Two types of code -->
-        <label for="name">Your name</label>
-        <input type="text" name="name" id="name" />
-        <label>
-          <span>Email</span> <!-- If I want to style? -->
-          <input type="email" name="email" required /> <!-- Simple validation -->
-        </label>
-        <button type="submit">Send</button>
-        <button type="button">Does something</button>
-        <select name="options">
-          <option value="1">opt1</option>
-          <option value="2">opt2</option>
-        </select>
-      </form>
-    </section>
+          <section>
+            <h2>Resumé</h2>
+            <article>
+              <h3>Exp</h3>
+              <p>Work titles and dates</p>
+            </article>
+            <article>
+              <h3>Edu</h3>
+              <p>School and dates</p>
+            </article>
+          </section>
 
-  </main>
+          <section>
+            <h2>Contact</h2>
+            <form action="" method="post">
+              <!-- Two types of code -->
+              <label for="name">Your name</label>
+              <input type="text" name="name" id="name" />
+              <label>
+                <span>Email</span> <!-- If I want to style? -->
+                <input type="email" name="email" required /> <!-- Simple validation -->
+              </label>
+              <button type="submit">Send</button>
+              <button type="button">Does something</button>
+              <select name="options">
+                <option value="1">opt1</option>
+                <option value="2">opt2</option>
+              </select>
+            </form>
+          </section>
 
-  <footer>
-    <div class="footer-content">
-      Copyright and email
+        </main>
+
+        <footer>
+          <div class="footer-content">
+            Copyright and email
+          </div>
+        </footer>
+
+      </div>
+
     </div>
-  </footer>
-
-</div>
-
-  <aside>
-    <nav aria-label="Primary">
-      <h2>Primary navigation</h2> <!-- Maybe make this hidden? For accessibility -->
-      <abbr>TEST</abbr>
-      <ul>
-        <li>Länk A</li>
-      </ul>
-    </nav>
-  </aside>
-
-  </div>
 
   </div>
 

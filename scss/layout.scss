@@ -1,3 +1,4 @@
+// Main layout blocks
 .container {
     display: flex;
     justify-content: center;
@@ -10,6 +11,23 @@
 }
 
 .layout--main {
+    width: 1130px;
     display: flex;
     flex-direction: column;
+}
+
+header {
+    margin-bottom: 155px;
+}
+
+section {
+    margin-bottom: $size-x-large;
+}
+
+aside {
+    width: 310px;
+    > .aside-left {
+        position: fixed;
+        width: 50px;
+    }
 }
