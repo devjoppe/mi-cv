@@ -1,11 +1,11 @@
 .aside--content {
     .image {
-        background-image: url("../img/joakim-profile_image.png");
+        background-image: url("../assets/images/joakim-profile_image.png");
         background-size: cover;
         background-position: center;
         transform: scaleX(-1); // Maybe delete this one?
         width: inherit;
-        height: 250px;
+        height: 350px;
         margin-top: 24px;
     }
     .block {

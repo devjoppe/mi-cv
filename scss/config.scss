@@ -53,14 +53,16 @@ h3 { font-size: 24px; font-family: $text-font; color: $secondary-color; font-wei
 
 p {
     color: $gray-color;
-    font-size: 1rem;
+    font-size: 20px;
     margin: 0;
-    line-height: 28px;;
+    line-height: 30px;
 }
 
 // Design elements
 .display-none { display: none; }
 .display-flex { display: flex; }
+
+.justify-center { justify-content: center; }
 
 .text-center { text-align: center; }
 

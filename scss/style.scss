@@ -6,3 +6,7 @@
 @import "sections.scss";
 @import "menu.scss";
 @import "footer.scss";
+
+// Imports responsive
+@import "_tablet.scss";
+@import "_mobile.scss";
