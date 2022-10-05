@@ -28,6 +28,6 @@ aside {
     width: 310px;
     > .aside-left {
         position: fixed;
-        width: 50px;
+        width: inherit;
     }
 }

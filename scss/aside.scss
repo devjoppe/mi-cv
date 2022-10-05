@@ -1,4 +1,27 @@
 .aside-content {
-    background: blue;
-    height: 500px;
+    //height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-right: $size-medium;
+    >.image {
+        background-image: url("../img/joakim-profile_image.png");
+        background-size: cover;
+        background-position: center;
+        transform: scaleX(-1); // Maybe delete this one?
+        width: inherit;
+        height: 250px;
+        margin-top: 24px;
+    }
+}
+
+.aside-content--block {
+    box-sizing: border-box;
+    background: $main-color-20;
+    padding: $size-small;
+    margin-bottom: $size-small;
+}
+
+.aside-vh {
+    flex: 1;
 }

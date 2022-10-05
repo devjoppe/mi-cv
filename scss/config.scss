@@ -35,6 +35,8 @@ $size-x-large: 128px;
 body {
     background: $main-color;
     font-family: $text-font;
+    overflow-y: auto;
+    overflow-x: hidden; // Ugly hack. Something is not working vith the horizontal scroll.
 }
 
 // Text
@@ -56,4 +58,9 @@ p {
     line-height: 28px;;
 }
 
+.txt-center {
+    text-align: center;
+}
+
+// Display
 .d-none { display: none; }
