@@ -19,47 +19,55 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/responsive.min.css">
 </head>
 
 <body>
-
+  <!-- Start: Container -->
   <div class="container">
+    
+    <!-- Start: Layout -->
     <div class="layout">
-
       <h1 class="display-none">Joakim Ottossons Personal Website</h1>
-
+      
+      <!-- Start: Aside -->
       <aside>
-        <div class="aside-left">
+        <div class="aside">
           <h2 class="display-none">Personal facts</h2>
-          <div class="aside-content">
+          <div class="aside--content">
             <div class="image" aria-label="Image on Joakim Ottosson"></div>
-            <div class="aside-content--block">
+            <div class="block">
               <h3 class="text-center">Joakim Ottosson</h3>
               <span class="txt-center">Frontend developer</span>
             </div>
-            <div class="aside-content--block aside-vh">
+            <div class="block flex-one">
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
             </div>
-            <div class="aside-content--block ">
+            <div class="block">
               <p>At vero eos.</p>
             </div>
           </div>
         </div>
       </aside>
+      <!-- End: Aside -->
 
+      <!-- Start: layout--main -->
       <div class="layout--main">
 
+        <!-- Start: Header -->
         <header>
-          <span class="header--text">
-            run<br />
-            frontend<br />
-            ready.
-            <!-- <span class="header--dot">&#9609</span> -->
-          </span>
+          <div class="header">
+            <span>
+              run<br />
+              frontend<br />
+              ready.
+            </span>
+          </div>
         </header>
+        <!-- End: Header -->
 
+        <!-- Start: Main -->
         <main>
-
           <section aria-label="What I do?">
             <h2>What I do?</h2>
             <article>
@@ -123,18 +131,24 @@
           </section>
 
         </main>
+        <!-- End: Main -->
 
+        <!-- Start: Footer -->
         <footer>
           <div class="footer-content">
             Copyright and email
           </div>
         </footer>
+        <!-- End: Footer -->
 
       </div>
+      <!-- End: layout--main -->
 
     </div>
-
+    <!-- End: Layout -->
+    
   </div>
+  <!-- End: Container -->
 
   <!-- Start: Javascript -->
   <script src="js/main.js"></script>

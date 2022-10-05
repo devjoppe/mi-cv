@@ -1,4 +1,17 @@
-// Main layout blocks
+// Main layout sections
+header {
+    margin-bottom: 155px;
+}
+
+section {
+    margin-bottom: $size-x-large;
+}
+
+aside {
+    width: 310px;
+}
+
+// Primary and secondary elements
 .container {
     display: flex;
     justify-content: center;
@@ -16,18 +29,14 @@
     flex-direction: column;
 }
 
-header {
-    margin-bottom: 155px;
+.aside {
+    position: fixed;
+    width: inherit;
 }
 
-section {
-    margin-bottom: $size-x-large;
-}
-
-aside {
-    width: 310px;
-    > .aside-left {
-        position: fixed;
-        width: inherit;
-    }
+.aside--content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-right: $size-medium;
 }

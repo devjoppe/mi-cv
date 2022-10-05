@@ -1,7 +1,8 @@
-// Header components
-.header--text {
-    font-family: $heading-font;
-    font-size: 85px;
-    color: $orange-color;
-    text-transform: uppercase;
+.header {
+    span {
+        font-family: $heading-font;
+        font-size: 85px;
+        color: $orange-color;
+        text-transform: uppercase;
+    }
 }

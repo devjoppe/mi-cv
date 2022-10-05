@@ -1,10 +1,5 @@
-.aside-content {
-    //height: 100vh;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    margin-right: $size-medium;
-    >.image {
+.aside--content {
+    .image {
         background-image: url("../img/joakim-profile_image.png");
         background-size: cover;
         background-position: center;
@@ -13,15 +8,10 @@
         height: 250px;
         margin-top: 24px;
     }
-}
-
-.aside-content--block {
-    box-sizing: border-box;
-    background: $main-color-20;
-    padding: $size-small;
-    margin-bottom: $size-small;
-}
-
-.aside-vh {
-    flex: 1;
+    .block {
+        box-sizing: border-box;
+        background: $main-color-20;
+        padding: $size-small;
+        margin-bottom: $size-small;
+    }
 }
