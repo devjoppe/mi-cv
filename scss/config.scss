@@ -58,7 +58,16 @@ p {
     line-height: 30px;
 }
 
+a {
+    color: $orange-color;
+    text-decoration: none;
+}
+
 // Design elements
+hr {
+    margin-bottom: $size-medium;
+}
+
 .display-none { display: none; }
 .display-flex { display: flex; }
 
