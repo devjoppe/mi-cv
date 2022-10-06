@@ -8,7 +8,7 @@
 }
 
 // Google font import
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@200;400;600;700&display=swap');
 
 // Colors
 $main-color: #F5EFD3;
@@ -68,7 +68,7 @@ hr {
     margin-bottom: $size-medium;
 }
 
-.display-none { display: none; }
+.display-none { display: none !important; }
 .display-flex { display: flex; }
 
 .justify-center { justify-content: center; }
