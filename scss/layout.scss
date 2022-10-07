@@ -39,3 +39,10 @@ section {
     height: 100vh;
     width: inherit;
 }
+
+.column {
+    margin-right: $size-large;
+    &:last-child {
+        margin-right: 0;
+    }
+}
