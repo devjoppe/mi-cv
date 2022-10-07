@@ -1,15 +1,23 @@
 .header {
     span {
         font-family: $heading-font;
-        font-size: 95px;
+        font-size: 145px;
         color: $orange-color;
         text-transform: uppercase;
+        line-height: 130px;
     }
 }
 
 .header--message {
-    span {
-        background: red;
-        color: $main-color;
+    .message {
+        font-size: 45px;
+        span {
+            font-weight: bold;
+        }
     }
+    span {
+        background: $orange-color;
+        color: $main-color;
+        padding: 6px 8px 6px 8px;
+    }   
 }
