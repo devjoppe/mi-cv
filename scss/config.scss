@@ -1,14 +1,25 @@
 // Local Heading font import
-@font-face {
+/* @font-face {
     font-family: 'commodore_64_roundedregular';
     src: url('../assets/fonts/commodore_rounded-webfont.woff2') format('woff2'),
          url('../assets/fonts/commodore_rounded-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+} */
+
+// Main fonts import
+@font-face { 
+    font-family: 'blender-pro-heavy';
+    src: url('../assets/fonts/blenderpro/BlenderPro-Heavy.woff') format('woff');
+}
+
+@font-face { 
+    font-family: 'blender-pro-regular';
+    src: url('../assets/fonts/blenderpro/BlenderPro-Book.woff') format('woff');
 }
 
 // Google font import
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@200;400;600;700&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@200;400;600;700&display=swap');
 
 // Colors
 $main-color: #F5EFD3;
@@ -21,8 +32,9 @@ $brown-color: #4C0821;
 $gray-color: #545145;
 
 // Fonts
-$text-font: 'Cabin', sans-serif;
-$heading-font: commodore_64_roundedregular;
+//$text-font: 'Cabin', sans-serif;
+$text-font: blender-pro-regular;
+$heading-font: blender-pro-heavy;
 
 // Spacing
 $size-mini: 8px;

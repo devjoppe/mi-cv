@@ -14,7 +14,6 @@ browserconfig.xml
 LICENSE.txt
 
 # Hide for right now but can be used in the future
-js/*
 package-lock.json
 package.json
 robots.txt
