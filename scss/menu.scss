@@ -63,6 +63,7 @@ $transition: cubic-bezier(.17,.67,.42,1.36);
   padding: 20px;
   background: $link-color;
   border: none;
+  border-radius: 8px;
   cursor: pointer;
   z-index: 10;
   &:active, &:focus {

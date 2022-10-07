@@ -4,6 +4,7 @@
     background: $brown-color;
     padding: $size-medium;
     flex-direction: column;
+    border-radius: 8px;
 }
 
 .project--description {
@@ -22,10 +23,20 @@
 }
 
 .project--links {
-    .fa-icons {
-        .fa-folder {
-            color: $orange-color;
-            font-size: 45px;
-        }
+    display: flex;
+    margin-bottom: $size-medium;
+    align-items: center;
+    justify-content: space-between;
+    .project-icon {
+        width: 48px;
+        height: 48px;
+        color: $main-color;
+    }
+    .links {
+        justify-content: space-between;
+        display: flex;
+        height: 32px;
+        width: 74px;
+        color: $orange-color;
     }
 }
