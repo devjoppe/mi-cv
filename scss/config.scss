@@ -61,8 +61,8 @@ h1, h2, h3, h4 {
     margin: 0;
 }
 
-h2 { font-size: 32px; margin-bottom: $size-large; }
-h3 { font-size: 24px; font-family: $text-font; color: $secondary-color; font-weight: 700; margin-bottom: $size-small; }
+h2 { font-size: 42px; margin-bottom: $size-large; }
+h3 { font-size: $size-medium; font-family: $text-font; color: $secondary-color; font-weight: 700; margin-bottom: $size-small; }
 
 p {
     font-family: $text-font;
@@ -78,9 +78,7 @@ a {
 }
 
 // Design elements
-hr {
-    margin-bottom: $size-medium;
-}
+hr { margin-bottom: $size-medium; }
 
 .display-none { display: none !important; }
 .display-flex { display: flex; }
@@ -90,3 +88,10 @@ hr {
 .text-center { text-align: center; }
 
 .flex-one { flex: 1; }
+
+.cursor-shape { color: $orange-color; }
+
+// Animations
+@keyframes blinker {  
+    50% { opacity: 0; }
+  }

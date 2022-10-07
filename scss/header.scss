@@ -1,11 +1,15 @@
 .header {
-    margin-bottom: $size-x-large;
+    margin-bottom: $size-super-large;
     span {
         font-family: $heading-font;
         font-size: 145px;
         color: $orange-color;
         text-transform: uppercase;
         line-height: 130px;
+        .cursor-shape {
+            color: $brown-color !important;
+            animation: blinker 1s linear infinite;
+        }
     }
 }
 
