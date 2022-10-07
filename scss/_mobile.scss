@@ -21,4 +21,9 @@
     .menu {
         justify-content: flex-end;
     }
+
+    // Mobile - Design elements
+    .m-flex-row {
+        flex-direction: column;
+    }
 }

@@ -1,0 +1,31 @@
+.project {
+    display: flex;
+    //width: 250px;
+    background: $brown-color;
+    padding: $size-medium;
+    flex-direction: column;
+}
+
+.project--description {
+    .title {
+        display: inline-block;
+        font-size: $size-medium;
+        font-family: $text-font;
+        color: $secondary-color;
+        font-weight: 700;
+        margin-bottom: $size-small;
+    }
+    p {
+        color: $main-color;
+        font-size: 18px;
+    }
+}
+
+.project--links {
+    .fa-icons {
+        .fa-folder {
+            color: $orange-color;
+            font-size: 45px;
+        }
+    }
+}

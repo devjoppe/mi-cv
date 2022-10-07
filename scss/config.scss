@@ -1,4 +1,4 @@
-// Local Heading font import
+// Local Heading font import <-- My old fonts.
 /* @font-face {
     font-family: 'commodore_64_roundedregular';
     src: url('../assets/fonts/commodore_rounded-webfont.woff2') format('woff2'),
@@ -49,7 +49,7 @@ body {
     background: $main-color;
     font-family: $text-font;
     overflow-y: auto;
-    overflow-x: hidden; // Ugly hack. Something is not working vith the horizontal scroll.
+    overflow-x: hidden;
 }
 
 // Text
@@ -80,16 +80,21 @@ a {
 // Design elements
 hr { margin-bottom: $size-medium; }
 
+.height-max { height: 100%; }
+
 .display-none { display: none !important; }
 .display-flex { display: flex; }
 
 .justify-center { justify-content: center; }
+.justify-space { justify-content: space-between; }
 
 .text-center { text-align: center; }
 
 .flex-one { flex: 1; }
 
-.cursor-shape { color: $orange-color; }
+.background-dark { background: $main-color-20; padding: $size-medium; }
+
+.cursor-shape { color: $orange-color;}
 
 // Animations
 @keyframes blinker {  

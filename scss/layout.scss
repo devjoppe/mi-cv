@@ -40,8 +40,16 @@ section {
     width: inherit;
 }
 
-.column {
+.column--block {
     margin-right: $size-large;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.project--block {
+    margin-right: $size-small;
+    flex: 1;
     &:last-child {
         margin-right: 0;
     }
