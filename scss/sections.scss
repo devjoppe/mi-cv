@@ -1,13 +1,16 @@
+// Start projects
 .project {
     display: flex;
     //width: 250px;
     background: $brown-color;
     padding: $size-medium;
     flex-direction: column;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .project--description {
+    margin-bottom: $size-medium;
+    height: 100%;
     .title {
         display: inline-block;
         font-size: $size-medium;
@@ -24,19 +27,53 @@
 
 .project--links {
     display: flex;
-    margin-bottom: $size-medium;
+    margin-bottom: $size-small;
     align-items: center;
     justify-content: space-between;
     .project-icon {
-        width: 48px;
-        height: 48px;
-        color: $main-color;
+        color: #7b3648
     }
     .links {
         justify-content: space-between;
         display: flex;
-        height: 32px;
-        width: 74px;
+        width: 60px;
         color: $orange-color;
+        i {
+            font-size: 20px;
+        }
+    }
+    .project-icon {
+        i {
+            font-size: 38px;
+        }
+    }
+}
+
+.project--tech {
+    color: $main-color-50;
+}
+
+// Start education and experience
+.listitem {
+    display: flex;
+    color: $brown-color;
+    height: 100%;
+}
+
+.listitem--year {
+    height: inherit;
+    .dot {
+        height: 16px;
+        width: 14px;
+        margin: -1px 0 -1px 0;
+    }
+    .line {
+        display: flex;
+        justify-content: center;
+        .center-line {
+            height: 100%;
+            width: 2px;
+            background: $brown-color;
+        }
     }
 }
