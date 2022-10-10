@@ -88,11 +88,11 @@ input[type=text], input[type=email], textarea, select {
 }
 
 input[type=text]:focus {
-    border: 1px solid $brown-color;
+    border: 1px solid $orange-color;
 }
 
 input[type=email]:focus {
-    border: 1px solid $brown-color;
+    border: 1px solid $orange-color;
 }
 
 input[type=text]::placeholder {
@@ -113,7 +113,7 @@ textarea::placeholder {
 textarea {
     height: inherit;
     &:focus {
-        border: 1px solid $brown-color;
+        border: 1px solid $orange-color;
     }
 }
 
@@ -162,7 +162,7 @@ hr { margin-bottom: $size-medium; }
 .flex-grow-one { flex-grow: 1; }
 
 .background-dark { background: $main-color-20; padding: $size-medium; }
-.background-orange { background: $orange-color; padding: $size-medium; color: $main-color;}
+.background-orange { background: $orange-color; padding: $size-medium; color: $main-color; }
 
 .cursor-shape { color: $orange-color;}
 

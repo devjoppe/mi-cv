@@ -11,7 +11,21 @@
     .block {
         box-sizing: border-box;
         background: $main-color-20;
-        padding: $size-small;
+        padding: $size-medium;
         margin-bottom: $size-small;
+        font-size: 20px;
+    }
+    .block--content {
+        margin-bottom: $size-medium;
+        .block-heading {
+            font-family: $heading-font;
+            font-weight: bold;
+            color: $brown-color;
+            text-transform: uppercase;
+        }
+    }
+    .name {
+        font-weight: bold;
+        color: $orange-color;
     }
 }
