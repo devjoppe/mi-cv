@@ -54,6 +54,9 @@
 }
 
 // Start education and experience
+.heading-list {
+    margin-bottom: $size-medium;
+}
 .listitem {
     display: flex;
     height: 100%;
@@ -66,7 +69,7 @@
     flex-direction: column;
     margin-right: $size-small;
     .dot {
-        color: $secondary-color;
+        color: $main-color-35;
         height: 16px;
         width: 14px;
         margin: -1px 0 -1px 0;
@@ -78,7 +81,7 @@
         .center-line {
             //height: 100%;
             width: 2px;
-            background: $secondary-color;
+            background: $main-color-35;
         }
     }
 }
@@ -86,6 +89,7 @@
 .listitem--content {
     .year {
         font-weight: bold;
+        //color: $main-color-50;
     }
     .description {
         display: flex;
