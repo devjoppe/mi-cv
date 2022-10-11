@@ -12,8 +12,16 @@
     }
 
     .header {
+        margin-top: $size-x-large;
         span {
-            font-size: 50px;
+            font-size: 95px;
+            line-height: 100px;
+        }
+    }
+
+    .message {
+        span {
+            line-height: 110px;
         }
     }
 
@@ -98,6 +106,11 @@
             margin-right: $size-small;
             cursor: pointer;
         }
+    }
+
+    .right {
+        text-align: center !important;
+        margin-top: $size-medium;
     }
 
     // Mobile - Design elements
