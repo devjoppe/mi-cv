@@ -2,6 +2,10 @@
 @media screen and (max-width: 835px) {
 
     // Mobile - Layout - Primary and secondary elements
+    .container {
+        background-size: 65%;
+    }
+
     .layout {
         flex-direction: column-reverse;
         padding: 0 $size-medium 0 $size-medium;
@@ -77,6 +81,10 @@
 }
 
 @media screen and (max-width: 420px) {
+
+    .container {
+        background-size: 80%;
+    }
 
     .header {
         span {
