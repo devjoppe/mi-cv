@@ -17,13 +17,62 @@
         }
     }
 
+    .aside {
+        position: fixed;
+        top: 0;
+        z-index: 5;
+        display: none;
+    }
+
+    .column--block {
+        margin-right: 0;
+        margin-bottom: $size-large;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .project--block {
+        margin-right: 0;
+        margin-bottom: $size-medium;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    
+    .mobile-row {
+        margin-bottom: 0;
+    }
+
     // Mobile - Menu
     .menu {
         justify-content: flex-end;
+        //flex-direction: row;
     }
 
     // Mobile - Design elements
     .m-flex-row {
         flex-direction: column;
     }
+
+    .background-dark {
+        padding: 0;
+        background: none;
+    }
+
+    // Mobile - Menu elements
+    .aboutme {
+        border-radius: 50%;
+        float: left;
+        margin-right: $size-small;
+        i {
+            font-size: 80px;
+            margin-right: $size-small;
+        }
+        img {    
+            height: 80px;
+            width: 100%;
+        }
+    }
+
 }
