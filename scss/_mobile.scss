@@ -1,10 +1,14 @@
 // Mobile responsive
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 835px) {
 
     // Mobile - Layout - Primary and secondary elements
     .layout {
         flex-direction: column-reverse;
         padding: 0 $size-medium 0 $size-medium;
+    }
+
+    .layout--main {
+        margin: 0;
     }
 
     header {
@@ -22,26 +26,6 @@
     .message {
         span {
             line-height: 110px;
-        }
-    }
-
-    .aside {
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 20;
-        margin: 0;
-        width: 100%;
-        background: $main-color; 
-        display: none;
-        overflow-y: scroll;
-        height: 100%;
-    }
-
-    .aside--content {
-        .image {
-            display: inline-block;
-            height: 300px;
         }
     }
 
@@ -68,56 +52,21 @@
     // Mobile - Menu
     .menu {
         justify-content: flex-end;
-        //flex-direction: row;
     }
 
-    .aboutme {
-        display: inline-block;
-        border-radius: 50%;
-        float: left;
-        margin-right: $size-small;
-        cursor: pointer;
-        i {
-            font-size: 80px;
-            margin-right: $size-small;
-        }
-        img {
-            //box-sizing: border-box;
-            height: 80px;
-            width: 100%;
-            border-radius: 50%;
-            //border: 2px solid $orange-color;
-        }
-    }
-
-    .close-aside {
-        color: $orange-color;
-        font-size: 60px;
-        margin: 24px 24px 0px 0px;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        i {
-            cursor: pointer;
-        }
-        span {
-            font-family: $heading-font;
-            font-size: 20px;
-            margin-right: $size-small;
-            cursor: pointer;
-        }
-    }
+    
 
     .right {
         text-align: center !important;
         margin-top: $size-medium;
     }
 
-    // Mobile - Design elements
-    .aside-active {
-        display:inline-block;
+    // Mobile - Footer
+    .footer {
+        margin-bottom: $size-medium;
     }
 
+    // Mobile - Design elements
     .m-flex-row {
         flex-direction: column;
     }
@@ -125,6 +74,17 @@
     .background-dark {
         padding: 0;
         background: none;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+
+    .header {
+        span {
+            font-size: 75px;
+            line-height: 80px;
+        }
     }
 
 }
