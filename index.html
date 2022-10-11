@@ -35,7 +35,7 @@
       <div class="menu--button">
         <!-- Start: About me responsive functionality -->
         <div class="aboutme">
-          <img src="assets/images/joakim-profile_square.png">
+          <img src="assets/images/joakim-profile_square-350.webp" alt="Go to about Joakim Ottosson">
         </div>
         <!-- End: About me responsive functionality -->
         <button class="menu-btn" aria-labelledby="sr-only">
@@ -91,7 +91,13 @@
           </div>
           <h2 class="display-none">Personal facts</h2>
           <div class="aside--content">
-            <div class="image"></div>
+            <div class="image">
+              <img
+                srcset="assets/images/joakim-profile_square-350.webp 420w, assets/images/joakim-profile_square-620.webp 1439w"
+                sizes="(max-width: 420px) 100vw, 1000px"
+                src="assets/images/joakim-profile_square-620.webp" alt="Joakim Ottosson"
+              >
+            </div>
             <div class="block flex-one info-text">
               <div class="block--content">
                 <span class="block-heading">Contact</span>

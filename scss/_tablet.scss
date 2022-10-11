@@ -1,7 +1,7 @@
-// Start Tablet
-
+// Tablet responsive
 @media screen and (max-width: 1130px) {
 
+    // Tablet - Layout - Primary and secondary elements
     .layout {
         width: 100%;
     }
@@ -26,8 +26,14 @@
     .aside--content {
         height: auto;
         .image {
-            display: inline-block;
-            min-height: 450px;
+            display: flex;
+            justify-content: center;
+            img {
+                border-radius: 50%;
+                width: 70%;
+                height: 70%;
+                margin-top: 20px;
+            }
         }
     }
 
@@ -75,7 +81,5 @@
     .footer {
         margin-bottom: 0;
     }
-
-    
 
 }

@@ -54,16 +54,14 @@
         justify-content: flex-end;
     }
 
-    
+    // Mobile - Footer
+    .footer {
+        margin-bottom: $size-medium;
+    }
 
     .right {
         text-align: center !important;
         margin-top: $size-medium;
-    }
-
-    // Mobile - Footer
-    .footer {
-        margin-bottom: $size-medium;
     }
 
     // Mobile - Design elements
