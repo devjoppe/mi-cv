@@ -69,6 +69,10 @@ p {
 a {
     color: $orange-color;
     text-decoration: none;
+    transition: 0.5s;
+    &:hover {
+        color: white; 
+    }
 }
 
 // Form elements
