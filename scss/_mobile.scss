@@ -21,7 +21,10 @@
         position: fixed;
         top: 0;
         z-index: 5;
-        display: none;
+        margin: 0px 32px 0px 0px;
+        width: auto;
+        background: $main-color; 
+        display: none
     }
 
     .column--block {
@@ -62,6 +65,7 @@
 
     // Mobile - Menu elements
     .aboutme {
+        display: inline-block;
         border-radius: 50%;
         float: left;
         margin-right: $size-small;
@@ -69,9 +73,12 @@
             font-size: 80px;
             margin-right: $size-small;
         }
-        img {    
+        img {
+            //box-sizing: border-box;
             height: 80px;
             width: 100%;
+            border-radius: 50%;
+            //border: 2px solid $orange-color;
         }
     }
 
