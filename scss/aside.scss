@@ -37,3 +37,17 @@
 .info-text {
     overflow-y: scroll;
 }
+
+.block-social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    a {
+        color: $main-color-50;
+        &:hover {
+            color: $link-color;
+        }
+    }
+    i {
+        font-size: $size-medium;
+    }
+}
