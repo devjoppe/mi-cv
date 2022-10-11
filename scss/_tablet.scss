@@ -24,9 +24,10 @@
     }
 
     .aside--content {
+        height: auto;
         .image {
             display: inline-block;
-            height: 300px;
+            min-height: 450px;
         }
     }
 
@@ -74,5 +75,7 @@
     .footer {
         margin-bottom: 0;
     }
+
+    
 
 }
