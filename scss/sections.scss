@@ -6,6 +6,10 @@
     padding: $size-medium;
     flex-direction: column;
     border-radius: 4px;
+    transition: 0.2s;
+    &:hover {
+        margin-top: -10px;
+    }
 }
 
 .project--description {
@@ -18,6 +22,10 @@
         color: $secondary-color;
         font-weight: 700;
         margin-bottom: $size-small;
+        transition: 0.5s;
+        &:hover {
+            color: white;
+        }
     }
     p {
         color: $main-color;
