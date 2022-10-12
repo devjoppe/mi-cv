@@ -75,6 +75,12 @@ a {
     }
 }
 
+// Scrollbar design
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: $main-color-50; }
+::-webkit-scrollbar-thumb { background: $secondary-color; }
+::-webkit-scrollbar-thumb:hover { background: #555; }
+
 // Form elements
 input[type=text], input[type=email], textarea, select {
     width: 100%;

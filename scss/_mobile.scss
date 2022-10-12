@@ -2,10 +2,6 @@
 @media screen and (max-width: 835px) {
 
     // Mobile - Layout - Primary and secondary elements
-    .container {
-        background-size: 65%;
-    }
-
     .layout {
         flex-direction: column-reverse;
         padding: 0 $size-medium 0 $size-medium;
@@ -20,10 +16,17 @@
     }
 
     .header {
-        margin-top: $size-x-large;
+        margin-top: $size-large;
+        margin-bottom: $size-large;
+        flex-direction: column;
         span {
             font-size: 95px;
             line-height: 100px;
+        }
+        .header-image {
+            img {
+                margin-top: $size-large;
+            }
         }
     }
 
@@ -82,11 +85,8 @@
 
 @media screen and (max-width: 420px) {
 
-    .container {
-        background-size: 80%;
-    }
-
     .header {
+        margin-bottom: $size-x-large;
         span {
             font-size: 75px;
             line-height: 80px;

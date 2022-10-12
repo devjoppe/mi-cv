@@ -1,4 +1,5 @@
 .header {
+    display: flex;
     margin-bottom: $size-super-large;
     span {
         font-family: $heading-font;
@@ -9,6 +10,13 @@
         .cursor-shape {
             color: $brown-color !important;
             animation: blinker 1s linear infinite;
+        }
+    }
+    .header-image {
+        display: flex;
+        align-items: flex-end;
+        img {
+            width: 100%;
         }
     }
 }
