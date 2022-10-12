@@ -46,7 +46,11 @@ section {
 }
 
 .column--block {
-    margin-right: $size-large;
+    margin-right: 28px;
+    margin-left: 28px;
+    &:first-child {
+        margin-left: 0;
+    }
     &:last-child {
         margin-right: 0;
     }
