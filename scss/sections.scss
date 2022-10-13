@@ -70,9 +70,9 @@
     height: 100%;
     margin-bottom: $size-medium;
     flex-grow: 1;
-    &:last-child {
+    /* &:last-child {
         margin-bottom: 0;
-    }
+    } */
 }
 
 .listitem--year {
@@ -124,14 +124,20 @@
 .expand-exp {
     display: flex;
     align-items: center;
-    height: $size-medium;
+    height: $size-large;
     cursor: pointer;
     .expand-link {
+        display: flex;
+        height: $size-medium;
+        align-items: center;
         font-size: 20px;
         font-weight: bold;
+        color: $orange-color;
+        i {
+            margin-left: 8px;
+        }
         &:hover {
-            color: $orange-color;
-            text-decoration: underline;
+            color: $gray-color;
         }
     }
 }
