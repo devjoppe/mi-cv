@@ -178,4 +178,10 @@ hr { margin-bottom: $size-medium; }
 // Animations
 @keyframes blinker {  
     50% { opacity: 0; }
-  }
+}
+
+// Not useing the expandList animation right now. See .expand-list-toggle in sections.scss
+/* @keyframes expandList {  
+    0% { height: 0px; }
+    100% { height: 100%; }
+}*/

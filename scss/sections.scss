@@ -121,6 +121,31 @@
     }
 }
 
+.expand-exp {
+    display: flex;
+    align-items: center;
+    height: $size-medium;
+    cursor: pointer;
+    .expand-link {
+        font-size: 20px;
+        font-weight: bold;
+        &:hover {
+            color: $orange-color;
+            text-decoration: underline;
+        }
+    }
+}
+
+.expand-list {
+    display: none;
+}
+
+.expand-list-toggle {
+    display: block;
+    text-overflow: all clip;
+    //animation: expandList 1s ease-in-out 0s 1;
+}
+
 // Start contact form
 .contactform {
     display: flex;
