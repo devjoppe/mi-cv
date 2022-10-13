@@ -28,7 +28,7 @@ closeAsideBtn.addEventListener("click", function() {
 var expandListBtn = document.querySelector(".expand-exp");
 var expandList = document.querySelector(".expand-list");
 var closelinkBtn = 'Close ' + '<i class="fa-solid fa-circle-xmark">';
-var openlinkBtn = 'See 4 more positions ' + '<i class="fa-sharp fa-solid fa-arrow-right">';
+var openlinkBtn = 'See 3 more positions ' + '<i class="fa-sharp fa-solid fa-arrow-right">';
 
 expandListBtn.addEventListener("click", function() {
   expandList.classList.toggle("expand-list-toggle");
