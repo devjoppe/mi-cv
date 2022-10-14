@@ -1,6 +1,6 @@
-# Personlig sajt :computer:
+# jotto.dev :computer:
 
-![](/screenshots/01-Chrome/Chrome-desktop-1920-01_Header_Nav.jpg)
+![](/assets/images/header-jotto_dev-github.png)
 ## Överblick
 
 ### Länkar
@@ -13,7 +13,7 @@ Github pages: https://devjoppe.github.io/mi-cv/
 
 ### Hosting
 
-www.jotto.dev hostas via [Netlify](https://www.netlify.com/)
+www.jotto.dev via [Netlify](https://www.netlify.com/)
 
 ### Validering
 
@@ -79,47 +79,42 @@ root/
 
 ## Process
 
-Att utifrån ett underlag bygga upp en webbsida genom att endast använda HTML5 och CSS (Javascript valfritt).
+Detta är en uppgift i kursen HTML och CSS (20yhp) där man fick i uppdrag att bygga den första versionen av sin Portfolio/personliga sida. Kraven baserades på det tekniska utförandet och inte så mycket utseende.
 
-Underlaget bestod av en kortare beskrivning och ett antal bilder som illustrerade sidans design för olika upplösningar. Min uppgift var att koda fram en responsiv design baserat på detta underlag.
+1. Tog fram vilken typ av innehåll jag vill ha på sidan. Samt en idé om hur den ska förvaltas och vidareutvecklas.
+2. Hämta inspiration från andra portfolios med liknande innehåll.
+3. Skapade en design mockup (desktop, tablet, mobil).
+4. Kodning.
+5. Test och justeringar.
+6. Klar.
 
-1. Skapade en wireframe baserat på designen för att snabbt kunna omsätta layouten till kod.
-2. Tog fram en HTML-struktur.
-3. Koda design och layout i SCSS.
-4. Test och justeringar.
-5. Klar.
 ### Byggd med :construction:
 
 - Semantisk HTML5
 - SCSS/CSS
-- Lite JS med JQuery
+- JS
+- JQuery
+- Fontawsome
 
 ### Resurser
 
-**Hamburger menu**
-https://codepen.io/rhyspacker/pen/WaJMEz
+**Hamburger menu:** https://codepen.io/rhyspacker/pen/WaJMEz
 
-**JQuery**
-https://jquery.com/
+**JQuery:** https://jquery.com/
+
+**Fontawsome:** https://fontawesome.com/
 
 ### Lärdomar :exclamation:
 
-:warning: **Alltid "mobile first".**
+**Fokusering**
 
-Så enkelt med ack så viktigt. Även om det inte känns så i början så kommer man spara tid, kod och andra problem. :scream:
-
-
-:ok_hand: **SCSS**
-
-Låt det ta lite längre tid i början för att strukturera upp din kod bättre.
-
-
-:clap: **srcset, size, .webp**
-
-Nytt sätt att arbeta med bilder.
+Planering och inte fastna i detaljer.
+Lätt att hamna i vinkelvolten där man lägger ner onödig tid och inte för projektet framåt. Har varit bra på att identifera när detta inträffar och på sätt kunna skifta fokus.
 
 ## Backlog - Kommande utveckling :mega:
 
-:white_square_button: Text
+:white_square_button: Koppla på ett CMS (Sanity.io).
 
-:white_square_button: Text 2
+:white_square_button: Ny sektion med projekt jag vill lyfta fram lite extra.
+
+:white_square_button: Publicera min Styleguide.
