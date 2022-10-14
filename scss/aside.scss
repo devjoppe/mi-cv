@@ -34,6 +34,13 @@
     }
 }
 
+.aside-icons {
+    width: 24px;
+    &.aside-icons-medium {
+        width: 32px;
+    }
+}
+
 .info-text {
     overflow-y: auto;
 }
