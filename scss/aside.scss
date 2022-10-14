@@ -19,10 +19,12 @@
     .block--content {
         margin-bottom: $size-medium;
         .block-heading {
+            display: inline-block;
             font-family: $heading-font;
             font-weight: bold;
             color: $brown-color;
             text-transform: uppercase;
+            padding-bottom: $size-mini;
         }
         &:last-child {
             margin-bottom: 0;
