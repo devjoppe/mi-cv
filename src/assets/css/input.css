@@ -2,11 +2,17 @@
 @font-face{font-family:"blender-pro-regular"; src:url("/assets/fonts/blenderpro/BlenderPro-Book.woff") format("woff")}
 
 @layer base {
-    h1, h2 {
+    h1, h2, h3 {
         @apply font-heading;
     }
+}
+
+a.main {
+    @apply font-heading;
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* npx tailwindcss -i ./src/assets/css/input.css -o ./dist/assets/css/output.css --watch */
