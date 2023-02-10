@@ -5,6 +5,7 @@ node_modules
 dist
 .cache
 prepros.config
+_old
 
 # My hide
 .editorconfig
